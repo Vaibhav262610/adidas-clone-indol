@@ -1,16 +1,32 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  outline:none;
+  cursor: default;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
 }
 
-* {
-  box-sizing: border-box;
+::-webkit-scrollbar-thumb {
+  background:rgb(68, 68, 68);
+}
+
+::selection {
+  background: none;
+}
+
+.header1{
+  background-image: url("/img/banner.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* margin-top: -40px; */
 }
