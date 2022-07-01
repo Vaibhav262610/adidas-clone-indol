@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full">
-        <h1 className="italic ml-40 text-3xl w-auto md:w-10/12 font-semibold">
+        <h1 className="italic ml-20 sm:ml-40 text-3xl w-auto md:w-10/12 font-semibold">
           BEST OF ADIDAS
         </h1>
         <div className="bg-[#E5E7EB] flex flex-wrap p-8 pt-12 pb-12 sm:mt-24 h-auto sm:h-96 items-center justify-center gap-5">
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-12">
         <div className="flex flex-col sm:flex-row items-center justify-between h-40 w-10/12">
           <div className="items-center flex-col sm:flex-row justify-center  flex ">
             <Link href="/" className="">
