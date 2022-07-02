@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -10,10 +11,12 @@ const Header = () => {
           <h1 className="font-semibold text-sm mt-2">
             Best of Adidas&#44; IT&apos;S YOUR PLAY&#44; START TODAY
           </h1>
-          <button className="bg-white items-center font-bold mt-6 flex gap-2 text-black uppercase text-sm px-4 py-4 ">
-            Shop Now
-            <BsArrowRight size={20}  />
-          </button>
+          <Link href='#PopularArea'>
+            <button className="bg-white items-center font-bold mt-6 flex gap-2 text-black uppercase text-sm px-4 py-4 ">
+              Shop Now
+              <BsArrowRight size={20} />
+            </button>
+          </Link>
         </div>
       </div>
     </>
